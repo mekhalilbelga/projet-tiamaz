@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="row">
+    <div class="col-25">
+      <img src="12.png" alt="enimlogo" height="150" width="130" style="margin-top: -60px;margin-bottom: 30px ">
+    </div>
+    <div class="col-75">
+      <h2 style="color:black;font-family: fantasy;font-size: 40px;text-align: center;margin-top:70px;margin-left:-300px" >Fiche de Réclamation</h2>
+    </div>
+  </div>
+
+
+<div class="container">
+  <form action="/action_page.php">
+  <div class="row">
+    <div class="col-25">
+      <label for="fname">Date de réception de réclamation</label>
+    </div>
+    <div class="col-75">
+     <input type="date" name="dateofbirth" id="dateofbirth">
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-25">
+      <label for="country">Cité</label>
+    </div>
+    <div class="col-75">
+      <select id="country" name="country" style="width: 825px">
+        <option value="australia">Cité I</option>
+        <option value="canada">Cité II</option>
+        <option value="usa">Cité III</option>
+      </select>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-25">
+      <label for="lname">Numéro de chambre</label>
+    </div>
+    <div class="col-75">
+      <input type="text" id="lname" name="lastname" placeholder="entrer numéro chambre.." style="width: 800px">
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-25">
+      <label for="fname">Problème Récurrent</label>
+    </div>
+    <div class="col-75">
+        <div class="col-sm-4"> 
+           OUI<input type="radio" name="gender" value="male">
+            NON<input type="radio" name="gender" value="male">
+        </div>
+
+       
+      </div>
+  </div>
+  <div class="row">
+    <div class="col-25">
+      <label for="subject">Objet de la réclamation</label>
+    </div>
+    <div class="col-75">
+      <textarea id="subject" name="subject" placeholder="Remplir ici.." style="height:50px;width: 800px"></textarea>
+    </div>
+  </div>
+  <div class="row">
+      <a href="cong.html"><input type="button" value="SUBMIT" style="margin-top: 30px;margin-left: 940px" /></a><br /><br />
+    
+  </div>
+  </form>
+</div>
+
+</body>
+</html>
