@@ -1,0 +1,76 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>GoogleSignIn</title>
+<link href="logn.css" rel="stylesheet" type="text/css" />
+
+    
+    
+    
+    
+    
+    
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    
+    <meta name="google-signin-client_id" content="709433128346-1b9g62g4a7amjem7hl8pfmq26ocahvsp.apps.googleusercontent.com">
+   
+    <script src="https://apis.google.com/js/platform.js" async defer></script> 
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    
+    <script src="script.js"></script>
+ 
+   
+</head>
+<body>
+    
+    
+
+    <img src="12.png" alt="enimlogo" height="150" width="130" style="margin-top:0px;margin-bottom:-80px ">
+    <div class="g-signin2" data-onsuccess="onSignIn"></div>
+   
+  <div class="row">
+        
+    <div class="col-25"> 
+            <p style="color:black;font-family: fantasy;font-size: 50px">BIENVENUE</p> 
+            <i><p style="color:black;font-family:monospace;font-size: 30px">Bienvenue sur le site officiel de gestion de reclarnation de l'ecole des Mines de Rabat.
+            "Vous pouvez ecrire n'imoprte quelle reclamation qui est en relation avec les
+            problemes d'internats.</p></i>
+        </div>
+        
+        <div class="col-75">
+            <div class="signin">
+       
+<form>
+<h2 style="color:#fff;" style="margin-left:100">Log In</h2>
+    
+    <input type="text" name="username" placeholder="First name" style="margin-left:70"><br><br>
+    <input type="text" name="username" placeholder="Last name" style="margin-left:70"><br><br>
+    <input type="text" placeholder="Email address" style="margin-left:70"><br><br>
+    <input type="password" name="pass" placeholder="Password" style="margin-left:70"><br><br>   
+    
+     
+      
+    
+<a href="file:///C:/Users/hp/Desktop/congratu/index.html" ><input type="button" value="Log In" style="margin-left:90"/></a><br /><br />
+    
+    <br/>
+<div id="container">
+    
+    
+<a href="re.html" style=" color: darkorange; font-size:20px; font-family:Tahoma, Geneva, sans-serif;">Reset password?</a><br/>
+    
+    <a href="for.html" style=" color: darkorange; font-size:20px; font-family:Tahoma, Geneva, sans-serif;">Forget password!</a>
+    </div><br /><br /><br /><br /><br /><br />
+
+</form>
+</div>
+            </div>
+      </div>
+  
+    
+    
+    
+</body>
+</html>
